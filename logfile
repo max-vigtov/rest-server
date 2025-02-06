@@ -1,0 +1,10 @@
+2025-02-05 18:04:01.790 CST [11321] LOG:  starting PostgreSQL 14.15 (Homebrew) on aarch64-apple-darwin24.1.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.4), 64-bit
+2025-02-05 18:04:01.791 CST [11321] LOG:  listening on IPv6 address "::1", port 5432
+2025-02-05 18:04:01.791 CST [11321] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-02-05 18:04:01.791 CST [11321] FATAL:  could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied
+2025-02-05 18:04:01.792 CST [11321] LOG:  database system is shut down
+2025-02-05 18:04:14.627 CST [11437] LOG:  starting PostgreSQL 14.15 (Homebrew) on aarch64-apple-darwin24.1.0, compiled by Apple clang version 16.0.0 (clang-1600.0.26.4), 64-bit
+2025-02-05 18:04:14.628 CST [11437] LOG:  listening on IPv6 address "::1", port 5432
+2025-02-05 18:04:14.628 CST [11437] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-02-05 18:04:14.628 CST [11437] FATAL:  could not open lock file "/tmp/.s.PGSQL.5432.lock": Permission denied
+2025-02-05 18:04:14.629 CST [11437] LOG:  database system is shut down
