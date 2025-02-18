@@ -41,11 +41,6 @@ export class Server {
 			res.sendFile(indexPath)
 			return;
 		})
-		const PORT = process.env.PORT || 8080;
-
-		this.app.listen( "0.0.0.0", () => {
-		  console.log(`🚀 Server is running on port ${PORT}`);
-		});
 
 		this.app.listen(this.port, () => {
 			console.log(`Server is running on port ${ this.port }`)
