@@ -6,7 +6,8 @@
     "dev": "tsnd --respawn --clear src/app.ts",
     "build": "rimraf ./dist && tsc && npm run prisma:migrate:prod",
     "start": "node dist/app.js",
-    "prisma:migrate:prod": "prisma migrate deploy"
+    "prisma:migrate:prod": "prisma migrate deploy",
+    "check-node": "node -v"
   },
   "keywords": [],
   "author": "",
@@ -29,7 +30,7 @@
     "express": "^4.21.2"
   },
   "engines": {
-  "node": ">=20"
+    "node": ">=20"
 }
 
 }
