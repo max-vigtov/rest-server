@@ -1,4 +1,4 @@
-import { prisma } from '../../data/postgresdb';
+import { prisma } from '../../data/postgresDb';
 import { CreateTodoDto, TodoEntity } from '../../domain';
 import { TodoDatasource } from '../../domain/datasources/todo.datasource';
 import { UpdateTodoDto } from '../../domain/dtos/todos/update-todo.dto';
